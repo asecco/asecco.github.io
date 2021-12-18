@@ -11,7 +11,7 @@ export default function About() {
             <p className="aboutinfo">I am currently a senior at Michigan State University studying Information Science.</p>
             <p className="aboutinfo">I've always been passionate about technology my entire life and have used that passion in both the development and infrastructure sectors of tech to create and utilize technologies such as games, websites, apps, and more with the goal of being useful and improving people's lives.</p>
             <p className="aboutinfo">After graduation I hope to turn my passion into a career and continue to learn and grow as both a person and developer.</p>
-            <a href={Resume} target="_blank"><button id="resume">Resume</button></a>
+            <a href={Resume} target="_blank"><button className="btn-large" id="resume">Resume</button></a>
         </div>
     )
 }

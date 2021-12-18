@@ -11,7 +11,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Navbar />
+      <div id="navbar">
+        <Navbar/>
+      </div>
       <Intro />
       <About />
       <Projects />

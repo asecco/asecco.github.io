@@ -2,7 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 #profile {
-    width: 25%;
+    width: 28%;
     margin-left: 125px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #Projects {
-    margin-top: 25rem;
+    margin-top: 30rem;
 }
 
 #h2name {
@@ -61,7 +61,11 @@ h3 {
 }
 
 .card img {
-    height: 265px;
+    height: 275px;
+}
+
+.card-title {
+    font-weight: bold;
 }
 
 #Projects {
@@ -69,7 +73,7 @@ h3 {
 }
 
 .badge {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #Skills {
@@ -141,4 +145,39 @@ h3 {
   color: #41403E;
   background: #fefefe;
   border-color: #41403E;
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        display: none;
+    }
+    h2 {
+        font-size: 75px;
+        text-align: center;
+        line-height: 0.75em;
+        position: relative;
+        top: -2em;
+    }
+    #profile {
+        width: 28%;
+        margin-left: 15px;
+    }
+    .aboutinfo, #contactinfo {
+        font-size: 25px;
+        margin: 5%;
+    }
+    .card {
+        padding-bottom: 10px;
+        width: 15rem;
+    }
+    #Projects {
+        margin-top: 15rem;
+    }
+    .card img {
+        height: 175px;
+    }
+    #Skills button {
+        font-size: 30px;
+        margin: 5px;
+    }
 }
