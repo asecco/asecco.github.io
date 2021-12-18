@@ -16,10 +16,10 @@ export default function Navbar() {
             </label>
             <div className="collapsible-body">
                 <ul className="inline">
-                    <li className="navList"><ScrollIntoView selector="#About">About</ScrollIntoView></li>
-                    <li className="navList"><ScrollIntoView selector="#Projects">Projects</ScrollIntoView></li>
-                    <li className="navList"><ScrollIntoView selector="#Skills">Skills</ScrollIntoView></li>
-                    <li className="navList"><ScrollIntoView selector="#Contact">Contact</ScrollIntoView></li>
+                    <li><ScrollIntoView className="navList" selector="#About">About</ScrollIntoView></li>
+                    <li><ScrollIntoView className="navList" selector="#Projects">Projects</ScrollIntoView></li>
+                    <li><ScrollIntoView className="navList" selector="#Skills">Skills</ScrollIntoView></li>
+                    <li><ScrollIntoView className="navList" selector="#Contact">Contact</ScrollIntoView></li>
                 </ul>
                 </div>
             </div>
