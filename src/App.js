@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import About from './components/About';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <br></br>
       <br></br>
-      
+      <About />
     </div>
   );
 }

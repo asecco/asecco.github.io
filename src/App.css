@@ -1,2 +1,15 @@
 @import url('https://unpkg.com/papercss@1.8.2/dist/paper.min.css');
 
+img {
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    line-height: .25em;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
