@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <div id="navbar">
-        <Navbar/>
+        <Navbar />
       </div>
       <Intro />
       <About />

@@ -24,7 +24,7 @@ export default function Projects() {
                 <div>
                 <h4 class="card-title">Personal Portfolio</h4>
                 <span class="badge success">React.js, PaperCSS</span>
-                <p class="card-text">My personal portfolio website showcasing who I am and projects I've completed.</p>
+                <p class="card-text">My personal portfolio website showcasing who I am and the projects I've completed.</p>
                 <a href="https://github.com/asecco/asecco.github.io" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
