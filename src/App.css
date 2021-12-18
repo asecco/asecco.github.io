@@ -14,8 +14,8 @@
     margin: 0 auto;
 }
 
-#resume {
-    margin-bottom: 450px;
+#resume, #card5 {
+    margin-bottom: 350px;
 }
 
 h2 {
@@ -52,4 +52,13 @@ h3 {
 
 .badge {
     font-size: 18px;
+}
+
+#Skills {
+    text-align: center;
+}
+
+#Skills button {
+    font-size: 40px;
+    margin: 5px;
 }
