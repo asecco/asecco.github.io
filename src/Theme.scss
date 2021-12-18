@@ -52,9 +52,23 @@
     color: white;
     }
   .rounded-social-buttons .social-button.github {
+      color: #41403E;
+      background-color: white;
       border-color: white;
     }
-    .rounded-social-buttons .social-button.linkedin {
-        border-color: white;
+  .rounded-social-buttons .social-button.linkedin {
+      color: #41403E;
+      background-color: white;
+      border-color: white;
+    }
+  .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+      background-color: #41403E;
+      color: white;
+      border-color: white;
+    }
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+      background-color: #41403E;
+      color: white;
+      border-color: white;
     }
 }
