@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <nav className="border fixed split-nav">
+        <nav className="split-nav">
             <div className="nav-brand">
                 <h3>Andrew Secco</h3>
             </div>
