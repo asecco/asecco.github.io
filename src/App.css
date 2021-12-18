@@ -187,3 +187,21 @@ h3 {
     }
 }
 
+@media (max-width: 1200px) {
+    #profile {
+        width: 35%;
+        margin-left: 15px;
+    }
+    #Projects {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    #Projects {
+        margin-top: 10rem;
+    }
+    .intro {
+        padding-top: 150px;
+    }
+}
