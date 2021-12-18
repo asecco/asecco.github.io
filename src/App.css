@@ -212,7 +212,9 @@ h3 {
     #scrollUp {
         display: none;
     }
-    
+    #dark-modeBtn {
+        display: none;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -255,4 +257,10 @@ h3 {
 
 .footerinfo {
     margin-bottom: -70px;
+}
+
+#dark-modeBtn {
+    position: fixed;
+    bottom: 0.5%;
+    left: 0.5%;
 }
