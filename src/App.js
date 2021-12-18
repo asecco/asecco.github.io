@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="paper container container-lg">
       <Navbar />
-      <br></br>
       <Intro />
       <About />
       <Projects />

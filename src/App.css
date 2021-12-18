@@ -5,13 +5,17 @@
 }
 
 .intro {
-    padding-top: 250px;
-    padding-bottom: 600px;
+    padding-top: 300px;
+    padding-bottom: 650px;
 }
 
-#learnmore {
+#learnmore, #resume {
     display: block;
     margin: 0 auto;
+}
+
+#resume {
+    margin-bottom: 450px;
 }
 
 h2 {
@@ -26,6 +30,26 @@ h3 {
     font-weight: bold;
 }
 
+.aboutinfo {
+    font-size: 25px;
+}
+
 .card {
-    width: 20rem;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 15rem;
+}
+
+.card img {
+    height: 165px;
+}
+
+#Projects {
+    text-align: center;
+}
+
+.badge {
+    font-size: 18px;
 }
