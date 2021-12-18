@@ -1,6 +1,28 @@
 @import url('https://unpkg.com/papercss@1.8.2/dist/paper.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+.navList {
+    color: #41403e;
+    color: var(--primary);
+    border-bottom-color: #41403e;
+    border-bottom-color: var(--primary);
+    background-image: none;
+    border-bottom-left-radius: 15px 3px;
+    border-bottom-right-radius: 15px 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    padding-bottom: 0.1rem;
+    font-size: 25px;
+}
+
+.navList:hover {
+    border-color: #41403e;
+    border-color: var(--primary-light);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    cursor: pointer;
+  }
+
 #profile {
     width: 28%;
     margin-left: 125px;

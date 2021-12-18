@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollIntoView from 'react-scroll-into-view';
 
 export default function Navbar() {
     return (
@@ -15,10 +16,10 @@ export default function Navbar() {
             </label>
             <div className="collapsible-body">
                 <ul className="inline">
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li className="navList"><ScrollIntoView selector="#About">About</ScrollIntoView></li>
+                    <li className="navList"><ScrollIntoView selector="#Projects">Projects</ScrollIntoView></li>
+                    <li className="navList"><ScrollIntoView selector="#Skills">Skills</ScrollIntoView></li>
+                    <li className="navList"><ScrollIntoView selector="#Contact">Contact</ScrollIntoView></li>
                 </ul>
                 </div>
             </div>
