@@ -14,8 +14,16 @@
     margin: 0 auto;
 }
 
-#resume, #card5 {
+#resume {
     margin-bottom: 350px;
+}
+
+#Contact, #Projects, #Skills {
+    margin-top: 350px;
+}
+
+#h2name {
+    color: #86A361;
 }
 
 h2 {
@@ -61,4 +69,12 @@ h3 {
 #Skills button {
     font-size: 40px;
     margin: 5px;
+}
+
+#Contact {
+    text-align: center;
+}
+
+#contactinfo {
+    font-size: 30px;
 }

@@ -46,7 +46,7 @@ export default function Projects() {
                 <a href="https://github.com/asecco/IP-Location-Lookup" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
-            <div className="card" id="card5">
+            <div className="card">
                 <img src={Project5} alt="React Calculator"></img>
                 <div>
                 <h4 class="card-title">React Calculator</h4>
