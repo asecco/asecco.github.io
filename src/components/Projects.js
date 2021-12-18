@@ -1,6 +1,6 @@
 import React from 'react';
 import Project1 from '../images/msu-majors.png';
-import Project2 from '../images/msu-majors.png';
+import Project2 from '../images/portfolio.png';
 import Project3 from '../images/box-office-bombs.png';
 import Project4 from '../images/ip-location-lookup.png';
 import Project5 from '../images/react-calculator.png';
