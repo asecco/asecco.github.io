@@ -3,7 +3,7 @@ import ScrollIntoView from 'react-scroll-into-view';
 
 export default function Navbar() {
     return (
-        <nav className="split-nav">
+        <nav className="split-nav" id="Start">
             <div className="nav-brand">
                 <h3>Andrew Secco</h3>
             </div>

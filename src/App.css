@@ -209,6 +209,10 @@ h3 {
         font-size: 30px;
         margin: 5px;
     }
+    #scrollUp {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 1000px) {
@@ -242,4 +246,13 @@ h3 {
     .intro {
         padding-top: 150px;
     }
+}
+
+#scrollUp {
+    float: right;
+    margin-right: 1%;
+}
+
+.footerinfo {
+    margin-bottom: -70px;
 }
