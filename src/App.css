@@ -1,5 +1,12 @@
 @import url('https://unpkg.com/papercss@1.8.2/dist/paper.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+#navName {
+    font-family: "Dancing Script";
+    font-style: italic;
+    font-weight: bold;
+}
 
 .navList {
     color: #41403e;
