@@ -4,17 +4,17 @@ export default function Skills() {
     return (
         <div id="Skills">
             <h3>Skills</h3>
-            <button class="badge warning">JavaScript</button>
-            <button class="badge danger">HTML</button>
-            <button class="badge secondary">CSS</button>
-            <button class="badge success">Bootstrap</button>
-            <button class="badge secondary">React.js</button>
-            <button class="badge warning">Python</button>
-            <button class="badge success">Django</button>
-            <button class="badge secondary">SQL</button>
-            <button class="badge warning">jQuery</button>
-            <button class="badge success">Figma</button>
-            <button class="badge danger">Git</button>
+            <button className="badge warning">JavaScript</button>
+            <button className="badge danger">HTML</button>
+            <button className="badge secondary">CSS</button>
+            <button className="badge success">Bootstrap</button>
+            <button className="badge secondary">React.js</button>
+            <button className="badge warning">Python</button>
+            <button className="badge success">Django</button>
+            <button className="badge secondary">SQL</button>
+            <button className="badge warning">jQuery</button>
+            <button className="badge success">Figma</button>
+            <button className="badge danger">Git</button>
         </div>
     )
 }
