@@ -6,8 +6,8 @@ export default function Navbar() {
     return (
         <nav className="split-nav" id="Start">
             <div className="nav-brand">
-                <h3 id="navName"><Typewriter onInit={(typewriter) => {
-                    typewriter.typeString("Andrew Secco").start();
+                <h3 id="navName"><Typewriter options={{loop: true, cursor: ""}}onInit={(typewriter) => {
+                    typewriter.typeString("Andrew Secco").start().pauseFor(3500);
                 }}/></h3>
             </div>
             <div className="collapsible">
