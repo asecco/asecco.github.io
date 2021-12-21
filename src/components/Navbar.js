@@ -1,11 +1,14 @@
 import React from 'react';
 import ScrollIntoView from 'react-scroll-into-view';
+import Typewriter from 'typewriter-effect';
 
 export default function Navbar() {
     return (
         <nav className="split-nav" id="Start">
             <div className="nav-brand">
-                <h3 id="navName">Andrew Secco</h3>
+                <h3 id="navName"><Typewriter onInit={(typewriter) => {
+                    typewriter.typeString("Andrew Secco").start();
+                }}/></h3>
             </div>
             <div className="collapsible">
             <label for="collapsible1">
