@@ -8,7 +8,7 @@ export default function Skills() {
             <button className="badge danger">HTML</button>
             <button className="badge secondary">CSS</button>
             <button className="badge success">Bootstrap</button>
-            <button className="badge secondary">React.js</button>
+            <button className="badge secondary">React</button>
             <button className="badge warning">Python</button>
             <button className="badge success">Django</button>
             <button className="badge secondary">SQL</button>

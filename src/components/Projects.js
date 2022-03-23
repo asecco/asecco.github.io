@@ -4,7 +4,7 @@ import Project2 from '../images/portfolio.png';
 import Project3 from '../images/box-office-bombs.png';
 import Project4 from '../images/ip-location-lookup.png';
 import Project5 from '../images/react-calculator.png';
-import Project6 from '../images/friendship-simulator.png';
+import Project6 from '../images/libgen-leecher.png';
 
 export default function Projects() {
     return (
@@ -23,7 +23,7 @@ export default function Projects() {
                 <img src={Project2} alt="Portfolio"></img>
                 <div>
                 <h4 className="card-title">Personal Portfolio</h4>
-                <span className="badge success">React.js, PaperCSS</span>
+                <span className="badge success">React, PaperCSS</span>
                 <p className="card-text">My personal portfolio website showcasing who I am and the projects I've completed.</p>
                 <a href="https://github.com/asecco/asecco.github.io" target="_blank"><button>Source Code</button></a>
                 </div>
@@ -50,18 +50,18 @@ export default function Projects() {
                 <img src={Project5} alt="React Calculator"></img>
                 <div>
                 <h4 className="card-title">React Calculator</h4>
-                <span className="badge success">React.js, JavaScript/HTML/CSS</span>
-                <p className="card-text">Simple calculator web app developed and styled in a few hours while learning React.js.</p>
+                <span className="badge success">React, JavaScript/HTML/CSS</span>
+                <p className="card-text">Simple calculator web app developed and styled in a few hours while learning React.</p>
                 <a href="https://github.com/asecco/React-Calculator" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
             <div className="card">
-                <img src={Project6} alt="Friendship Simulator"></img>
+                <img src={Project6} alt="LibGen Leecher"></img>
                 <div>
-                <h4 className="card-title">Friendship Simulator</h4>
-                <span className="badge success">GameMaker Studio, GML</span>
-                <p className="card-text">Party game developed for the purpose of bringing people together to have a friendly competition in fun mini-games.</p>
-                <a href="https://github.com/asecco/Friendship-Simulator" target="_blank"><button>Source Code</button></a>
+                <h4 className="card-title">LibGen Leecher</h4>
+                <span className="badge success">Python</span>
+                <p className="card-text">A script for easily downloading books from Library Genesis. Supports both pdf and epub extensions.</p>
+                <a href="https://github.com/asecco/LibGen-Leecher" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
         </div>

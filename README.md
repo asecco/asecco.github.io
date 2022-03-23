@@ -1,6 +1,6 @@
 # asecco.github.io
 
-My personal portfolio website showcasing who I am and the projects I've completed. Created with React.js and PaperCSS
+My personal portfolio website showcasing who I am and the projects I've completed. Created with React and PaperCSS
 
 ![portfolio](https://user-images.githubusercontent.com/40510223/146635669-745a0656-51af-4bdf-873b-9b3526e8de1e.png)
 
