@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be0d888e.css",
-    "main.js": "/static/js/main.89371aea.js",
+    "main.js": "/static/js/main.e97cf5f5.js",
     "static/media/myself.jpg": "/static/media/myself.827a46eed67e705d4c23.jpg",
     "static/media/msu-majors.png": "/static/media/msu-majors.663028b5cc0a77cb2286.png",
     "static/media/box-office-bombs.png": "/static/media/box-office-bombs.5010f0738d7b3833c678.png",
@@ -11,10 +11,10 @@
     "static/media/react-calculator.png": "/static/media/react-calculator.9f11bf95c79b09d15e83.png",
     "index.html": "/index.html",
     "main.be0d888e.css.map": "/static/css/main.be0d888e.css.map",
-    "main.89371aea.js.map": "/static/js/main.89371aea.js.map"
+    "main.e97cf5f5.js.map": "/static/js/main.e97cf5f5.js.map"
   },
   "entrypoints": [
     "static/css/main.be0d888e.css",
-    "static/js/main.89371aea.js"
+    "static/js/main.e97cf5f5.js"
   ]
 }
