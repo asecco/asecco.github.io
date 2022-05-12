@@ -47,21 +47,21 @@ export default function Projects() {
                 </div>
             </div>
             <div className="card">
-                <img src={Project5} alt="React Calculator"></img>
-                <div>
-                <h4 className="card-title">React Calculator</h4>
-                <span className="badge success">React, JavaScript/HTML/CSS</span>
-                <p className="card-text">Simple calculator web app developed and styled in a few hours while learning React.</p>
-                <a href="https://github.com/asecco/React-Calculator" target="_blank"><button>Source Code</button></a>
-                </div>
-            </div>
-            <div className="card">
                 <img src={Project6} alt="LibGen Leecher"></img>
                 <div>
                 <h4 className="card-title">LibGen Leecher</h4>
                 <span className="badge success">Python</span>
                 <p className="card-text">A script for easily downloading books from Library Genesis. Supports both pdf and epub extensions.</p>
                 <a href="https://github.com/asecco/LibGen-Leecher" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+            <div className="card">
+                <img src={Project5} alt="React Calculator"></img>
+                <div>
+                <h4 className="card-title">React Calculator</h4>
+                <span className="badge success">React, JavaScript/HTML/CSS</span>
+                <p className="card-text">Simple calculator web app developed and styled in a few hours while learning React.</p>
+                <a href="https://github.com/asecco/React-Calculator" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
         </div>
