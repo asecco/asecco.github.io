@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.6012e4ac.css",
-    "main.js": "/static/js/main.2a8a4dd5.js",
+    "main.js": "/static/js/main.d20782f8.js",
     "static/media/myself.jpg": "/static/media/myself.827a46eed67e705d4c23.jpg",
     "static/media/msu-majors.png": "/static/media/msu-majors.663028b5cc0a77cb2286.png",
     "static/media/box-office-bombs.png": "/static/media/box-office-bombs.5010f0738d7b3833c678.png",
+    "static/media/peri.png": "/static/media/peri.fa3d6e8a8482ad26244c.png",
     "static/media/ip-location-lookup.png": "/static/media/ip-location-lookup.164e4ca91d511a63314d.png",
     "static/media/Andrew-Secco-Resume.pdf": "/static/media/Andrew-Secco-Resume.4924e9c57f4970b642d6.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.6180020b4ba918aff2a9.png",
     "static/media/libgen-leecher.png": "/static/media/libgen-leecher.e320a13a12a18fd3c393.png",
-    "static/media/react-calculator.png": "/static/media/react-calculator.9f11bf95c79b09d15e83.png",
     "index.html": "/index.html",
     "main.6012e4ac.css.map": "/static/css/main.6012e4ac.css.map",
-    "main.2a8a4dd5.js.map": "/static/js/main.2a8a4dd5.js.map"
+    "main.d20782f8.js.map": "/static/js/main.d20782f8.js.map"
   },
   "entrypoints": [
     "static/css/main.6012e4ac.css",
-    "static/js/main.2a8a4dd5.js"
+    "static/js/main.d20782f8.js"
   ]
 }
