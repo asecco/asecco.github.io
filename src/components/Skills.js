@@ -14,7 +14,7 @@ export default function Skills() {
             <button className="badge warning">Python</button>
             <button className="badge secondary">Express</button>
             <button className="badge success">Material UI</button>
-            <button className="badge secondary">SQL</button>
+            <button className="badge secondary">Tailwind CSS</button>
             <button className="badge success">Figma</button>
             <button className="badge danger">Git</button>
         </div>

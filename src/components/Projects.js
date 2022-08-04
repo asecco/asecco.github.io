@@ -3,13 +3,22 @@ import Project1 from '../images/msu-majors.png';
 import Project2 from '../images/portfolio.png';
 import Project3 from '../images/box-office-bombs.png';
 import Project4 from '../images/ip-location-lookup.png';
-import Project5 from '../images/react-calculator.png';
+import Project5 from '../images/peri.png';
 import Project6 from '../images/libgen-leecher.png';
 
 export default function Projects() {
     return (
         <div id="Projects">
             <h3>Projects</h3>
+            <div className="card">
+                <img src={Project5} alt="Peri"></img>
+                <div>
+                <h4 className="card-title">Peri</h4>
+                <span className="badge success">React, Next.js, Tailwind CSS</span>
+                <p className="card-text">Database for browsing your favorite movies/series or finding the perfect watch for the night.</p>
+                <a href="https://github.com/asecco/Peri" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
             <div className="card">
                 <img src={Project1} alt="MSU Majors"></img>
                 <div>
@@ -53,15 +62,6 @@ export default function Projects() {
                 <span className="badge success">Python</span>
                 <p className="card-text">A script for easily downloading books from Library Genesis. Supports both pdf and epub extensions.</p>
                 <a href="https://github.com/asecco/LibGen-Leecher" target="_blank"><button>Source Code</button></a>
-                </div>
-            </div>
-            <div className="card">
-                <img src={Project5} alt="React Calculator"></img>
-                <div>
-                <h4 className="card-title">React Calculator</h4>
-                <span className="badge success">React, JavaScript/HTML/CSS</span>
-                <p className="card-text">Simple calculator web app developed and styled in a few hours while learning React.</p>
-                <a href="https://github.com/asecco/React-Calculator" target="_blank"><button>Source Code</button></a>
                 </div>
             </div>
         </div>
